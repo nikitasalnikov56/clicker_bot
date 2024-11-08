@@ -1,0 +1,32 @@
+abstract class AppImages {
+  static const bg = 'assets/images/bg.png';
+  static const avatar = 'assets/images/avatar.png';
+  static const panel1 = 'assets/images/panel1.png';
+  static const panel2 = 'assets/images/panel2.png';
+  static const panel3 = 'assets/images/panel3.png';
+  static const panel4 = 'assets/images/panel4.png';
+  static const panel5 = 'assets/images/panel5.png';
+  static const panel6 = 'assets/images/panel6.png';
+  static const code = 'assets/images/code.png';
+  static const menuBg = 'assets/images/menu_bg.png';
+  static const character = 'assets/images/character.png';
+  static const gun = 'assets/images/gun.png';
+  static const gunBg = 'assets/images/gun_bg.png';
+  static const gunBorder = 'assets/images/gun_border.png';
+  static const gunMenu = 'assets/images/gun_menu.png';
+  static const bottomLine = 'assets/images/bottom_line.png';
+  static const bottomNavBarBg = 'assets/images/bottom_navbar_bg.png';
+  static const card = 'assets/images/card.png';
+  static const scene1 = 'assets/images/scene1.png';
+  static const decor1 = 'assets/images/decor1.png';
+  static const qr = 'assets/images/qr.png';
+  static const lockedCard = 'assets/images/locked_card.png';
+  static const lockedMask = 'assets/images/locked_mask.png';
+  static const key = 'assets/images/key.png';
+  static const tabContainer = 'assets/images/tab_container.png';
+  static const shopCards = 'assets/images/shop_cards.png';
+  static const buy = 'assets/images/buy_bg.png';
+  static const upgrade = 'assets/images/upgrade_bg.png';
+  static const splashImg = 'assets/images/splash_loading.png';
+  static const globe = 'assets/images/globe.png';
+}
