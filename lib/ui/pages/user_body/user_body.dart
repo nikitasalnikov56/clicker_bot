@@ -69,7 +69,7 @@ class _UserBodyState extends State<UserBody>
                   width: 180,
                   height: 470,
                   child: Flutter3DViewer(
-                    src: 'assets/3dmodel/character.glb',
+                    src: 'assets/assets/3dmodel/character.glb',
                   ),
                 ),
                 Opacity(
