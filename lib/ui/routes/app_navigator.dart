@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 
 abstract class AppNavigator {
   static final GoRouter _router = GoRouter(
+    initialLocation: '/',
     routes: [
       GoRoute(path: AppRoutes.splash, builder: (context, state) => const SplashScreen(),),
       GoRoute(
@@ -12,6 +13,13 @@ abstract class AppNavigator {
         builder: (context, state) => const HomePage(),
       ),
     ],
+    redirect: (context, state){
+      final queryParams = state.uri.queryParameters.containsKey('tgWebAppData');
+      if (queryParams && state.uri.toString() != '/') {
+        return '/';
+      }
+      return null;
+    }
   );
 
   static GoRouter get router => _router;
